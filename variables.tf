@@ -1,3 +1,13 @@
+variable "access_key" {
+       description = "Secret Key to access AWS." 
+       default     = "AKIAY7FZJWKMYQ3IAQAT" 
+}
+
+variable "secret_key" {
+       description = "Secret Key to access AWS." 
+       default     = "vsiBJ2Oz4IqkKF34LxQmw+ACJr3Yn+QibXkHDwaS" 
+}
+
 variable "aws_region" {
        description = "The AWS region to create things in." 
        default     = "us-east-2" 
